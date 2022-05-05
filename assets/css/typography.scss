@@ -1,0 +1,50 @@
+.heading-medium {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('~assets/fonts/gilroy-regular.eot');
+  src: local('☺'),
+  url('~assets/fonts/gilroy-regular.woff') format('woff'),
+  url('~assets/fonts/gilroy-regular.ttf') format('truetype'),
+  url('~assets/fonts/gilroy-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy Medium'), local('Gilroy-Medium'),
+  url('~assets/fonts/Gilroy-Medium.woff2') format('woff2'),
+  url('~assets/fonts/Gilroy-Medium.woff') format('woff'),
+  url('~assets/fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: local('Proxima Nova Semibold'), local('Proxima-Nova-Semibold'),
+  url('~assets/fonts/ProximaNova-Semibold.woff2') format('woff2'),
+  url('~assets/fonts/ProximaNova-Semibold.woff') format('woff'),
+  url('~assets/fonts/ProximaNova-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: local('Proxima Nova Bold'), local('Proxima-Nova-Bold'),
+  url('~assets/fonts/ProximaNova-Bold.woff2') format('woff2'),
+  url('~assets/fonts/ProximaNova-Bold.woff') format('woff'),
+  url('~assets/fonts/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
