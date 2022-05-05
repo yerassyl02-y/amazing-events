@@ -4,14 +4,22 @@
     <hr class="hr" />
     <news />
     <hr class="hr" />
+    <past-events />
+    <h2>Our partners</h2>
+    <partners />
+    <hr class="hr" />
+    <request />
   </div>
 </template>
 
 <script>
 import Events from "../components/Events.vue";
 import News from "../components/News.vue";
+import Partners from "../components/Partners.vue";
+import PastEvents from "../components/PastEvents.vue";
+import Request from "../components/Request.vue";
 export default {
-  components: { Events, News },
+  components: { Events, News, PastEvents, Partners, Request },
   middleware: ["auth"],
 };
 </script>
@@ -38,5 +46,11 @@ export default {
   margin: 30px auto;
 
   color: white;
+}
+h2 {
+  margin: 10px 0 !important;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
 }
 </style>

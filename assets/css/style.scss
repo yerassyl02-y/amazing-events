@@ -3,6 +3,9 @@
 @import "login";
 @import "events";
 @import "news";
+@import "past-events";
+@import "partners";
+@import "request";
 
 
 
@@ -70,3 +73,73 @@ h2 {
             align-items: center;
         }
     }
+
+       ::placeholder {
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #C3C2CA;
+        }
+
+        input {
+            outline: none;
+        }
+
+.v-dialog {
+    width: 500px !important;
+    height: 500px !important;
+
+    background: #fff;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    .close {
+        position: absolute;
+
+        width: 14px !important;
+        height: 14px !important;
+
+        top: 30px;
+        right: 30px;
+
+        margin: 0 !important;
+    }
+
+    svg {
+        margin: 20px 0 16px;    
+    }
+
+    h1 {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 32px;
+        text-align: center;
+        color: #393948;
+    }
+    span {
+        text-align: center;
+
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #393948;
+
+        cursor: pointer;
+    }
+}
+.v-dialog__container {
+    display: unset !important;
+}
