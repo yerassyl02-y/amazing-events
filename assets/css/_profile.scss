@@ -1,0 +1,43 @@
+.profile {
+    &__wrapper {
+        max-width: 1100px;
+        width: 100%;
+
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+    }
+        h2 {
+            color: #000 !important;
+
+            margin-bottom: 16px;
+        }
+        &__headers {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            span {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #C3C2CA;
+
+            margin-right: 140px;
+            &:nth-of-type(4) {
+                margin-right: 165px;
+            }
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -29,7 +29,7 @@ export default {
   methods: {
     async sendData() {
       try {
-        await this.$auth.loginWith("local", {
+        const res = await this.$auth.loginWith("local", {
           data: this.login,
         });
         if (res.status < 400) {

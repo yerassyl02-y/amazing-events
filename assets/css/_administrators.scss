@@ -1,0 +1,89 @@
+.administrators {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(6, 210px);
+
+    background: white;
+    border-radius: 10px;
+
+    padding: 20px;
+
+    margin-bottom: 10px;
+
+    p {
+          font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            color: #393948;
+    }
+    &__icons {
+        svg {
+            cursor: pointer;
+            width: 25px;
+            height: 25px;
+            margin-left: -30px;
+        }
+    }
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    button {
+        background: #D84949;
+        border-radius: 10px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 307px;
+        height: 48px;
+
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+
+        margin-bottom: 20px;
+    }
+
+    span {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #335989;
+    }
+
+}
+h1 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    color: #393948;
+
+    max-width: 400px;
+}
+
+.close_btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+    width: 14px !important;
+    height: 14px !important;
+
+    cursor: pointer;
+}

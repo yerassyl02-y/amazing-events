@@ -1,5 +1,8 @@
 .header {
     padding: 30px 0;
+    z-index: 99999;
+
+    margin-bottom: 50px;
     &__wrapper {
         max-width: 1100px;
         width: 100%;
@@ -23,6 +26,8 @@
         width: 70px;
         height: 70px;
 
+        position: relative;
+
         cursor: pointer;
 
         background-color: #fff;
@@ -42,5 +47,47 @@
             display: flex;
             align-items: center;
         }
+        .list {
+            background: white;
+            border-radius: 5px;
+
+            position: absolute;
+            width: 70px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            top: 80px;
+
+            div {
+                width: 100%;
+
+                display: flex;
+                justify-content: center;
+                span {
+                    padding-top: 10px;
+                    width: 100%;
+                    text-align: center;
+                }
+                &:first-of-type:hover {
+                    border-top-right-radius: 5px;
+                    border-top-left-radius: 5px;
+                    background: red
+                }
+                &:last-of-type:hover {
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    background: green;
+                }
+            }
+        }
     }
+}
+.logout {
+    margin-top: 0;
+    margin-left: 12px;
+}
+.profile {
+    margin-left: 5px;
 }

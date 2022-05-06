@@ -1,11 +1,15 @@
 @import "typography";
 
+//blocks
 @import "login";
 @import "events";
 @import "news";
 @import "past-events";
 @import "partners";
 @import "request";
+@import "events-page";
+@import "administrators";
+@import "profile";
 
 
 
@@ -22,6 +26,7 @@
     background: url('@/assets/images/main_bg.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: 0% 55%;
 }
 
 a {

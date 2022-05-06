@@ -46,7 +46,7 @@ export default {
   ],
 
   axios: {
-    baseURL: "http://185.116.193.30/api/v1/"
+    baseURL: "http://185.116.193.30/api/v1/",
   },
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
